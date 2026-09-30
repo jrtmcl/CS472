@@ -37,6 +37,7 @@ With the inclusion of the DF bit, is the communication still be done in a simila
 
 ## D. Surprise Finding
 
+I was surprised to find how the VPN handles the the oversized packets and how it relates to the website constantly loading or taking a while. My assumption was the VPN would be causing problems with making requests to the website, but rather the website was responding with too large of a packet for the VPN. I thought that the VPN would be including extra information in its packets that the website didn't like, so it was dropping it, so it was surprising to find out that this isn't the case for my specific scenario. So when the VPN is dropping the packet over and over again, it is constantly loading because it is waiting for the packet size to get smaller before accepting the response. 
 
 ## E. AI Conversation Documentation
 
