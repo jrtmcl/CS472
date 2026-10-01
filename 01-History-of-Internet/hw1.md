@@ -33,7 +33,7 @@ With the inclusion of the DF bit, is the communication still be done in a simila
 
 ## C. Connection to 1974 Paper
 
-
+These questions and concepts I asked relate to the different packet sizes, TCP, and gateways. Ideas such as gateway fragmentation are loosely covered with the idea of these sizes being split in the gateway to allow bytes through, but in the current day splitting is less common so with the VPN aspect it wasn't as important. Otherwise, we see the concept of using the TCP to communicate between the two networks and the need to drop them if the size of the packets does not fit into the receiving networks allowed packet size, which is why we see VPN's running websites slowly or stuck in infinite loops. We also see the mention of an internetwork header, which is now the IP address, but the concept was originally introduced in the paper as a way of communication between the two networks. Overall, we see the core of TCP, network communication, gateway fragmentation with the concepts introduced in the question and conversation. After the conversation, it was easy to see the concepts from the 1974 paper in our current day VPNs.
 
 ## D. Surprise Finding
 
@@ -234,5 +234,5 @@ So the arc runs: the network splits packets (1974), then the network tells the s
 
 # Part 3
 
-
+Reflecting upon the reading, I found gateways and TCP to be the most surprising thing I learned. I had very little knowledge of networking before reading the paper and I think that comparing all the current days implementations to the concepts introduced in the paper was interesting. Due to this, I found that the TCP and gateways being so integral to the modern internet was what surprised me the most. For the AI investigation, I was able to learn a lot more about how the modern communication between networks works, as well as how VPNs play into that. I also learnt more about the how the internet had to make changes to the ideas from the original paper, such as the addition of multiple protocols. Overall, the paper and discussions allowed me to see a side of the internet I had never understood. I was able to gain a clearer understanding of our networks communications and how they addressed different problems early on and in the modern day. 
 
